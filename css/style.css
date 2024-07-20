@@ -1,0 +1,336 @@
+/*police du texte*/
+body{
+	font-family:"comic sans ms", verdana;
+	margin: 0px;
+	padding: 0px;
+}
+nav{
+	width: 100%;
+}
+/*cible les éléments directs de l'élément nav*/
+nav > ul{
+	margin: 0px;
+	padding: 0px;
+}
+/*aligner les onglets et sous-onglets*/
+nav > ul::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+/*mettre les lignes côte à côte*/
+nav > ul > li{
+	float: center;
+	position: relative;
+}
+nav > ul > li > a{
+	padding: 30px 100px;
+	color:#ff006b;
+	
+}
+/*supprimer les puces dans les lignes*/
+nav li{
+	list-style-type: none;
+	
+}
+/*cacher les sous-menus*/
+.submenu{
+	display: none;
+}
+/*supprimer le trait sous les éléments a*/
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	color: #ff006b;
+}
+/*modifier les styles des sous-menus et afficher les menus lorsque l'on passe la souris*/
+nav li:hover .submenu{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	padding: 0px;
+	z-index: 1000;
+}
+/*bordure fine et de couleur aux sous-menus, changement de police et taille et */
+.submenu li{
+	border-bottom: 1px solid #ff006b;
+}
+/*caractéristiques des sous-menus*/
+.submenu li a{
+	padding: 8px 8px;
+	font-size: 15px;
+	width: 100px;
+}
+.menu-chapitres:hover{
+	border-top: 5px solid #ff006b;
+	background-color: #ff006b;
+	font: #ffffff;
+}
+/*couleurs et taille des textes, parfois ombrés*/
+.ecriture-bleue{
+	color:#0000FF;
+	font-size:18px;
+	text-decoration: none;
+}
+.ecriture-blanc{
+	color:#ffffff;
+	font-size:20px;
+	text-decoration: none;
+	font-weight: bold;
+	text-shadow:4px 4px 4px #1440b2;
+}
+.ecriture-blanc2{
+	color:#ffffff;
+	font-size:15px;
+	text-decoration: none;
+	font-weight: bold;
+	text-shadow:3px 3px 3px #1440b2;
+}
+.ecriture-blanc3{
+	color:#ffffff;
+	font-size:13px;
+	text-decoration: none;
+	font-weight: bold;
+	text-shadow:2px 2px 2px #1440b2;
+}
+.ecriture-or{
+	color:#ff3f3f;
+	font-size:20px;
+	text-decoration: none;
+}
+.ecriture-or2{
+	color:#ff3f3f;
+	font-size:13px;
+	text-decoration: none;
+}
+.ecriture-cyan{
+	color:#00a2e8;
+	font-size:20px;
+	text-decoration: none;
+}
+.ecriture-turquoise2{
+	color:#50eef3;
+	font-size:20px;
+	text-decoration: none;
+}
+.ecriture-turquoise{
+	color:#50eef3;
+	font-size:30px;
+	text-shadow:3px 3px 1px #057c80;
+}
+.ecriture-mauve{
+	color:#D9D9F3;
+	font-size:30px;
+	text-shadow:3px 3px 1px #916eb0;
+}
+.ecriture-mauve2{
+	color:#D9D9F3;
+	font-size:30px;
+	text-shadow:2px 1px 1px #916eb0;
+}
+.ecriture-rose{
+	color:#1769c8;
+	font-size:30px;
+	text-shadow:2px 2px 2px #2d6e7e;
+}
+.ecriture-ciel{
+	color:#bbe3ff;
+	font-size:30px;
+	text-shadow:1px 1px 1px #0000FF;
+}
+.ecriture-kakiclair{
+	color:#dafcc9;
+	font-size:30px;
+	text-shadow:3px 3px 1px #5d7f64;
+}
+.ecriture-marron{
+	color:#F1DDBF;
+	font-size:30px;
+	text-shadow:1px 1px 1px #8c5d43;
+}
+.ecriture-rouge{
+	color:#FFF6C0;
+	font-size:30px;
+	text-shadow:1px 1px 1px #BE3700;
+}
+.ecriture-anisclair{
+	color:#c4ffbb;
+	font-size:30px;
+	text-shadow:1px 1px 1px #009918;
+}
+.ecriture-fushiaclair{
+	color:#ffdbea;
+	font-size:30px;
+	text-shadow:1px 1px 1px #ff006b;
+}
+.ecriture-anis{
+	color:#009918;
+	font-size:18px;
+	text-decoration: none;
+}
+.ecriture-anis2{
+	color:#009918;
+	font-size:15px;
+	text-decoration: none;
+}
+.ecriture-fushia{
+	color:#ff006b;
+	font-size:18px;
+	text-decoration: none;
+}
+.ecriture-brun{
+	color:#8c5d43;
+	font-size:15px;
+	text-decoration: none;
+}
+.ecriture-brun2{
+	color:#8c5d43;
+	font-size:18px;
+	text-decoration: none;
+}
+.ecriture-rouge2{
+	color:#BE3700;
+	font-size:18px;
+	text-decoration: none;
+}
+.ecriture-brun3{
+	color:#8c5d43;
+	font-size:15px;
+	text-decoration: none;
+}
+.ecriture-vertdeau{
+	color:#BEFFD4;
+	font-size:30px;
+	text-shadow:1px 1px 1px #00c18e;
+}
+.ecriture-orangeor{
+	color:#ffeab3;
+	font-size:30px;
+	text-shadow:1px 1px 1px #ff3f3f;
+}
+.ecriture-verte{
+	color:#00c18e;
+	font-size:18px;
+	text-decoration: none;
+}
+.ecriture-kaki{
+	color:#5d7f64;
+	font-size:20px;
+	text-decoration: none;
+}
+.ecriture-verte2{
+	color:#00c18e;
+	font-size:15px;
+	text-decoration: none;
+}
+.ecriture-orange2{
+	color:#ff561a;
+	font-size:15px;
+	text-decoration: none;
+}
+.ecriture-violette2{
+	color:#916eb0;
+	font-size:15px;
+	text-decoration: none;
+}
+.ecriture-ibiscus{
+	color:#f3ded4;
+	font-size:30px;
+	text-shadow:3px 3px 1px #aa6e7e;
+}
+.ecriture-ibiscus2{
+	color:#f3ded4;
+	font-size:30px;
+	text-shadow:2px 1px 1px #aa6e7e;
+}
+.ecriture-perle{
+	color:#d1e2ea;
+	font-size:30px;
+	text-shadow:3px 3px 1px #2d6e7e;
+}
+.ecriture-grisbrun{
+	color:#D8D8D8;
+	font-size:30px;
+	text-shadow:2px 2px 1px #8c5d43;
+}
+.ecriture-violette{
+	color:#916eb0;
+	font-size:20px;
+	text-decoration: none;
+}
+.ecriture-corail{
+	color:#aa6e7e;
+	font-size:20px;
+	text-decoration: none;
+}
+.ecriture-graphite{
+	color:#2d6e7e;
+	font-size:20px;
+	text-decoration: none;
+}
+.ecriture-grisbleu{
+	color:#affae1;
+	font-size:30px;
+	text-shadow:3px 3px 1px #199696;
+}
+.ecriture-grisbleuclair{
+	color:#199696;
+	font-size:20px;
+	text-decoration: none;
+}
+.ecriture-orangemixte{
+	color:#ffd396;
+	font-size:30px;
+	text-shadow:1px 1px 1px #ff561a;
+}
+.ecriture-orange{
+	color:#ff561a;
+	font-size:20px;
+	text-decoration: none;
+}
+.ecriture-bleunuitclair{
+	color:#e3efff;
+	font-size:30px;
+	text-shadow:1px 1px 1px #004eb6;
+}
+
+/*taille d'un texte*/
+.taille22{
+	font-size:20px;
+}
+/*forme d'un texte*/
+.gras-italique{
+	font-weight:700;
+	font-style:italic;
+	font-size:28px;
+}
+/*forme de la cellule*/
+.arrondi{
+	border-radius:20px;
+}
+.arrondihg{
+	border-radius:20px 0 0 0;
+}
+.arrondihd{
+	border-radius:0 20px 0 0;
+}
+.arrondibd{
+	border-radius:0 0 20px 0;
+}
+.arrondibg{
+	border-radius:0 0 0 20px;
+}
+.arrondih{
+	border-radius:20px 20px 0 0;
+}
+.arrondib{
+	border-radius:0 0 20px 20px;
+}
+.arrondig{
+	border-radius:20px 0 0 20px;
+}
+.arrondid{
+	border-radius:0 20px 20px 0;
+}
+
