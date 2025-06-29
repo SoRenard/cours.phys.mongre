@@ -4,6 +4,7 @@ body{
 	margin: 0px;
 	padding: 0px;
 }
+
 nav{
 	width: 100%;
 }
@@ -219,6 +220,11 @@ nav li:hover .submenu{
 	font-size:20px;
 	text-decoration: none;
 }
+.ecriture-kaki2{
+	color:#5d7f64;
+	font-size:15px;
+	text-decoration: none;
+}
 .ecriture-verte2{
 	color:#00c18e;
 	font-size:15px;
@@ -333,4 +339,3 @@ nav li:hover .submenu{
 .arrondid{
 	border-radius:0 20px 20px 0;
 }
-
