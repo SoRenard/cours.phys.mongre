@@ -160,6 +160,26 @@ nav li:hover .submenu{
 	font-size:30px;
 	text-shadow:1px 1px 1px #009918;
 }
+.ecriture-grisvio{
+	color:#9d75ff;
+	font-size:18px;
+	text-decoration: none;
+}
+.ecriture-grisvioclair{
+	color:#ddddff;
+	font-size:30px;
+	text-shadow:1px 1px 1px #9d75ff;
+}
+.ecriture-rosebougain{
+	color:#bf35eb;
+	font-size:18px;
+	text-decoration: none;
+}
+.ecriture-rosebougainclair{
+	color:#F5E1FE;
+	font-size:30px;
+	text-shadow:1px 1px 1px #bf35eb;
+}
 .ecriture-fushiaclair{
 	color:#ffdbea;
 	font-size:30px;
@@ -202,6 +222,11 @@ nav li:hover .submenu{
 }
 .ecriture-vertdeau{
 	color:#BEFFD4;
+	font-size:30px;
+	text-shadow:1px 1px 1px #00c18e;
+}
+.ecriture-vertemeraude{
+	color:#AEFAF8;
 	font-size:30px;
 	text-shadow:1px 1px 1px #00c18e;
 }
@@ -299,6 +324,16 @@ nav li:hover .submenu{
 	color:#e3efff;
 	font-size:30px;
 	text-shadow:1px 1px 1px #004eb6;
+}
+.ecriture-bleuclair{
+	color:#c3edff;
+	font-size:30px;
+	text-shadow:1px 1px 1px #15b9ff;
+}
+.ecriture-bleu{
+	color:#15b9ff;
+	font-size:20px;
+	text-decoration: none;
 }
 
 /*taille d'un texte*/
