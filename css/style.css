@@ -95,6 +95,13 @@ nav li:hover .submenu{
 	font-weight: bold;
 	text-shadow:2px 2px 2px #1440b2;
 }
+.ecriture-blancvert{
+	color:#ffffff;
+	font-size:18px;
+	text-decoration: none;
+	font-weight: bold;
+	text-shadow:2px 2px 2px #9cff33;
+}
 .ecriture-or{
 	color:#ff3f3f;
 	font-size:20px;
